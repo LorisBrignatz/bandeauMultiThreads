@@ -31,6 +31,7 @@ public class ExerciceAvecThreads {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        s.playOn(b1);
     }
 
     private Scenario makeScenario() {
