@@ -35,7 +35,7 @@ public class ExerciceAvecThreads {
     }
 
     private Scenario makeScenario() {
-        // On crée un scenario
+        // On crée un scenario :
         Scenario s = new Scenario();
         // On lui ajoute des effets
         s.addEffect(new RandomEffect("Le jeu du pendu", 700), 1);
